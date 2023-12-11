@@ -16,10 +16,14 @@ When the program runs, it presents the user with five different options:
 
 ## SEARCH: 
 Search by student number.
-## ADD: Enter information to add a new student.
-## DELETE: Remove a student by their number.
-## LIST: Display all student information.
-## EXIT: Exit the program.
+## ADD:
+Enter information to add a new student.
+## DELETE: 
+Remove a student by their number.
+## LIST:
+Display all student information.
+## EXIT: 
+Exit the program.
 
 ## File Operations
 
