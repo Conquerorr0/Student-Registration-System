@@ -14,7 +14,8 @@ This command will compile the main.c file into an executable named StudentSystem
 
 When the program runs, it presents the user with five different options:
 
-## SEARCH: Search by student number.
+## SEARCH: 
+Search by student number.
 ## ADD: Enter information to add a new student.
 ## DELETE: Remove a student by their number.
 ## LIST: Display all student information.
