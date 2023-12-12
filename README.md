@@ -43,7 +43,7 @@ Bu proje, öğrenci bilgilerini depolamak, eklemek, silmek, aramak ve listelemek
 ## NasılKullanılır?
 ### DerlemeVeÇalıştırma
 
-# C dilinde yazıldığı için bir C derleyicisine ihtiyacınız olacak (örneğin gcc). Projeyi derlemek için terminal veya komut istemcisinde aşağıdaki komutu kullanabilirsiniz:
+C dilinde yazıldığı için bir C derleyicisine ihtiyacınız olacak (örneğin gcc). Projeyi derlemek için terminal veya komut istemcisinde aşağıdaki komutu kullanabilirsiniz:
 `gcc main.c -o StudentSystem`
 
 Bu komut, main.c dosyasını StudentSystem adında bir yürütülebilir dosyaya derleyecektir. Ardından, şu şekilde yürütülebilir dosyayı çalıştırabilirsiniz:
