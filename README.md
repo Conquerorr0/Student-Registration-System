@@ -36,3 +36,43 @@ Every addition, deletion, or listing operation updates the file by writing to it
 Student numbers must be unique. You cannot add multiple students with the same number.
 Upon program startup, the previous student information is read from the Students.txt file and stored in memory.
 When the program ends, the updated student information is rewritten to the Students.txt file.
+
+# ÖğrenciKayıtSistemi
+Bu proje, öğrenci bilgilerini depolamak, eklemek, silmek, aramak ve listelemek gibi işlemleri gerçekleştiren bir #öğrenci kayıt sistemine örnek olarak yazılmıştır. #C dilinde yazılmıştır.
+
+## NasılKullanılır?
+### DerlemeVeÇalıştırma
+
+#C dilinde yazıldığı için bir C derleyicisine ihtiyacınız olacak (örneğin gcc). Projeyi derlemek için terminal veya komut istemcisinde aşağıdaki komutu kullanabilirsiniz:
+`gcc main.c -o StudentSystem`
+
+Bu komut, main.c dosyasını StudentSystem adında bir yürütülebilir dosyaya derleyecektir. Ardından, şu şekilde yürütülebilir dosyayı çalıştırabilirsiniz:
+`./StudentSystem`
+
+## MenüSeçenekleri
+
+Program çalıştığında, kullanıcıya beş farklı seçenek sunar:
+
+## ARAMA: 
+Öğrenci numarasına göre arama yapar.
+## EKLE:
+Yeni bir öğrenci eklemek için bilgi girişi yapar.
+## SİL: 
+Öğrenciyi numarasına göre siler.
+## LİSTE:
+Tüm öğrenci bilgilerini görüntüler.
+## ÇIKIŞ: 
+Programdan çıkar.
+
+## Dosyaİşlemleri
+
+Öğrenci bilgileri Students.txt dosyasında saklanır.
+Program başladığında, önceki kaydedilmiş öğrenci bilgileri bu dosyadan okunur ve bellekte saklanır.
+Her ekleme, silme veya listeleme işlemi, bilgileri güncellemek için dosyaya yazma işlemi gerçekleştirir.
+
+## ÖnemliNotlar
+
+Öğrenci numaraları benzersiz olmalıdır. Aynı numaraya sahip birden fazla öğrenci ekleyemezsiniz.
+Program başlatıldığında, önceki öğrenci bilgileri Students.txt dosyasından okunur ve bellekte saklanır.
+Program sonlandığında, güncellenmiş öğrenci bilgileri Students.txt dosyasına tekrar yazılır.
+
